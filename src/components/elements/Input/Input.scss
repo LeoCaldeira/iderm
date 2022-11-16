@@ -1,0 +1,82 @@
+@import 'theme/colors.scss';
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .password-icon {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 14px;
+        right: 12px;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    &.error {
+        label {
+            color: $error;
+        }
+
+        input {
+            border-color: $error;
+        }
+
+        div {
+            border-color: $error;
+        }
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: 500;
+        font-size: 15px;
+        color: $font-primary;
+        font-size: 14px;
+    }
+
+    .input,
+    .custom-react-select {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 5px;
+        color: $font-primary;
+        background-color: $light-background;
+        padding-right: 42px;
+
+        &:focus {
+            outline: 0;
+            border-color: $primary;
+        }
+
+        &::placeholder {
+            opacity: 0.7;
+        }
+    }
+
+    input {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    textarea {
+        min-height: 100px;
+        padding: 10px;
+    }
+
+    input[type='password'] {
+        padding-right: 42px;
+    }
+
+    .error-message {
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 5px;
+        color: $error;
+    }
+}

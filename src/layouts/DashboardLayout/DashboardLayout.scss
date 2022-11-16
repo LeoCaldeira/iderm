@@ -1,0 +1,427 @@
+@import 'theme/colors.scss';
+
+.dashboard-layout {
+    display: flex;
+    background: $background;
+
+    .sidebar {
+        width: 250px;
+        background-color: $light-background;
+        display: flex;
+        flex-direction: column;
+
+        margin: 30px;
+        border-radius: 19px;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+            box-sizing: border-box;
+            height: 70px;
+            margin-bottom: 20px;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .disabled-sidebar-item {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 45px;
+            margin-bottom: 20px;
+            color: #585858;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.1s, color 0.1s;
+            width: 200px;
+            margin: 0 auto 20px auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            cursor: default;
+
+            .sidebar-icon {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+                font-size: 20px;
+            }
+        }
+
+        .sidebar-item {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 45px;
+            margin-bottom: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.1s, color 0.1s;
+            width: 200px;
+            margin: 0 auto 20px auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+
+            .sidebar-icon {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+                font-size: 20px;
+            }
+
+            &.active,
+            &:hover {
+                background-color: $primary;
+                color: white;
+                cursor: pointer;
+                transition: background-color 0.1s, color 0.1s;
+            }
+        }
+
+        .sidebar-subroutes-link {
+            text-decoration: none;
+
+            &.active,
+            &.hover {
+                text-decoration: underline;
+                color: #ffffff;
+            }
+
+            .sidebar-subroutes-label {
+                margin-left: 70px;
+                margin-right: 20px;
+                padding: 10px 20px;
+                font-weight: 400;
+                background-color: none;
+                text-decoration: none;
+                color: white;
+
+                border-bottom: 1px solid #ffffff16;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        height: 100%;
+        overflow-x: hidden;
+
+        .top-bar {
+            min-height: 80px;
+            margin: 20px 0px;
+            margin-right: 40px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+            .title__wrapper {
+                h3 {
+                    margin: 0;
+                    font-weight: 500;
+                    color: $font-title;
+                }
+
+                p {
+                    margin: 5px 0 0 0;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $font-primary;
+                }
+
+                .title {
+                    display: flex;
+                    align-items: center;
+
+                    svg {
+                        color: $font-primary;
+                        font-size: 36px;
+                        margin-right: 5px;
+                        cursor: pointer;
+                    }
+                }
+
+                .subtitle-wrapper {
+                    padding: 8px 0;
+                }
+
+                h4 {
+                    margin: 0;
+                    font-weight: 400;
+                    color: $primary;
+                }
+            }
+
+            .logged-user-info {
+                margin-left: auto;
+                position: relative;
+                flex-shrink: 0;
+
+                .logged-user-info__content {
+                    color: $font-primary;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    img {
+                        width: 45px;
+                        height: 45px;
+                        padding: 1px;
+                        border-radius: 100%;
+                    }
+
+                    .user-info {
+                        span {
+                            display: block;
+                            margin: 0 15px;
+                            font-weight: 500;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            color: $font-primary;
+                        }
+
+                        .user-role {
+                            color: $font-subtitle;
+                        }
+                    }
+
+                    .arrow-down {
+                        align-self: flex-start;
+                        margin-top: 2px;
+                        font-size: 24px;
+                    }
+                }
+
+                .logged-user-info__options {
+                    position: absolute;
+                    width: 200px;
+                    background-color: $light-background;
+                    top: 65px;
+                    right: 0;
+                    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.55);
+                    z-index: 99999;
+
+                    .option {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        height: 30px;
+                        padding: 10px 20px;
+                        color: $font-primary;
+
+                        &:hover {
+                            cursor: pointer;
+                            background-color: $background;
+                        }
+
+                        span {
+                            margin-left: 10px;
+                            font-weight: 500;
+                        }
+
+                        .icon-wrapper {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+
+        .content-children {
+            overflow-y: auto;
+            flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            margin-bottom: 10px;
+        }
+    }
+
+    .burger-menu-wrapper {
+        display: none;
+
+        .sidebar-item {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 45px;
+            margin-bottom: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.1s, color 0.1s;
+            width: 200px;
+            margin: 0 auto 20px auto;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+
+            .sidebar-icon {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+                font-size: 20px;
+            }
+
+            &.active,
+            &:hover {
+                background-color: $primary;
+                color: white;
+                cursor: pointer;
+                transition: background-color 0.1s, color 0.1s;
+            }
+        }
+
+        .sidebar-subroutes-link {
+            text-decoration: none;
+
+            &.active,
+            &.hover {
+                text-decoration: underline;
+                color: #ffffff;
+            }
+
+            .sidebar-subroutes-label {
+                margin-left: 70px;
+                margin-right: 20px;
+                padding: 10px 20px;
+                font-weight: 400;
+                background-color: none;
+                text-decoration: none;
+                color: white;
+
+                border-bottom: 1px solid #ffffff16;
+            }
+        }
+
+        .menu-item {
+            color: $font-primary;
+            background-color: $primary;
+            height: 48px;
+            margin-bottom: 8px;
+        }
+
+        .bm-burger-button {
+            position: fixed;
+            width: 36px;
+            height: 30px;
+            left: 20px;
+            top: 20px;
+        }
+
+        /* Color/shape of burger icon bars */
+        .bm-burger-bars {
+            background: $primary;
+        }
+
+        /* Color/shape of burger icon bars on hover*/
+        .bm-burger-bars-hover {
+            background: $light-background;
+        }
+
+        /*
+        Sidebar wrapper styles
+        Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+        */
+        .bm-menu-wrap {
+            position: fixed;
+            height: 100%;
+        }
+
+        /* General sidebar styles */
+        .bm-menu {
+            background: $light-background;
+            padding: 2.5em 0.5em 0;
+            font-size: 1.15em;
+        }
+
+        /* Morph shape necessary with bubble or elastic */
+        .bm-morph-shape {
+            fill: #373a47;
+        }
+
+        /* Wrapper for item list */
+        .bm-item-list {
+            color: #b8b7ad;
+            padding: 0.8em 0;
+        }
+
+        /* Individual item */
+        .bm-item {
+            display: inline-block;
+        }
+
+        /* Styling of overlay */
+        .bm-overlay {
+            background: rgba(0, 0, 0, 0.3);
+        }
+    }
+}
+
+.discoteca-icon {
+    width: 16px;
+    height: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+    .dashboard-layout {
+        .sidebar {
+            display: none;
+            font-weight: bold;
+        }
+
+        .content {
+            .top-bar {
+                margin: 20px;
+                margin-top: 60px;
+                .title__wrapper {
+                    .title {
+                        flex-wrap: wrap;
+                    }
+                    h3 {
+                        font-size: 13px;
+                    }
+                    h4 {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+
+        .burger-menu-wrapper {
+            display: block;
+
+            .sidebar-item {
+                &:hover {
+                    background: none;
+                }
+            }
+        }
+    }
+}
