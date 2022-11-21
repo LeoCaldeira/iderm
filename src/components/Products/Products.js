@@ -1,9 +1,7 @@
 import AuthLayout from 'layouts/AuthLayout/AuthLayout'
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 
-const Products = (props) => {
-    const {} = props
-
+const Products = () => {
     return <AuthLayout>Produtos...</AuthLayout>
 }
 

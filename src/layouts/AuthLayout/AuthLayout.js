@@ -1,24 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './AuthLayout.scss'
+import Logo from 'assets/logo.png'
 
 const AuthLayout = (props) => {
     const { children } = props
 
     return (
-        <div className="home-wrapper">
-            <div className="header-wrapper">
-                <Link to="/home">
-                    <img src="#" alt="logo" />
+        <div className="auth-wrapper">
+            <div className="auth-header-wrapper">
+                <Link to="/">Home</Link>
+                <Link to="/products">Produtos</Link>
+                <Link to="/">
+                    <img src={Logo} alt="logo" className="logo" />
                 </Link>
-                <div className="header-options">
-                    <div>
-                        <Link to="/contact">Contato</Link>
-                    </div>
-                    <div>
-                        <Link to="/products">Produtos</Link>
-                    </div>
-                </div>
+                <Link to="/contact">Contato</Link>
+                <Link to="/products">Produtos</Link>
             </div>
             {children}
         </div>

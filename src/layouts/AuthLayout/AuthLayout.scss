@@ -1,28 +1,25 @@
 @use '../../theme/colors.scss' as *;
 @use '../../theme/sizes.scss' as *;
 
-.home-wrapper {
-    .header-wrapper {
-        height: 70px;
-        background-color: $indigo-200;
+.auth-wrapper {
+    .auth-header-wrapper {
+        background-color: $light;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        padding: 0 30px;
 
-        .header-options {
-            display: flex;
-            flex-direction: row;
-
-            div {
-                padding: 0px 10px;
-                font-size: 20px;
-
-                a {
-                    text-decoration: none;
-                    color: inherit;
-                }
+        a {
+            padding: 10px 25px;
+            font-size: 20px;
+            text-decoration: none;
+            color: inherit;
+            .logo {
+                width: 100px;
+                height: 80px;
             }
+        }
+
+        div {
         }
     }
 }
