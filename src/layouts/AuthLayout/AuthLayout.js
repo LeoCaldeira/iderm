@@ -14,7 +14,7 @@ const AuthLayout = (props) => {
                 <Link to="/">
                     <img src={Logo} alt="logo" className="logo" />
                 </Link>
-                <Link to="/contact">Contato</Link>
+                <Link to="/team">Equipe</Link>
                 <Link to="/products">Produtos</Link>
             </div>
             {children}

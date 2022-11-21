@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.scss'
 import Home from 'components/Home/Home'
 import Products from 'components/Products/Products'
-import Contact from 'components/Contact/Contact'
+import Team from 'components/Team/Team'
 
 function App() {
     return (
@@ -12,7 +12,7 @@ function App() {
                     <Route element={<Home />} path="/" exact />
                     <Route element={<Home />} path="/home" />
                     <Route element={<Products />} path="/products" />
-                    <Route element={<Contact />} path="/contact" />
+                    <Route element={<Team />} path="/team" />
                 </Routes>
             </Router>
         </div>

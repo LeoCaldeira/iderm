@@ -1,0 +1,89 @@
+{
+    "corporais": [
+        {
+            "name": "CRIOLIPÓLISE",
+            "description": [
+                "A nossa criolipólise conta com um tratamento inovador de redução de gordura localizada, desenvolvida em Harvard é a única com resultados cientificamente comprovados na redução de medidas (gordura localizada).",
+                "A gordura é eliminada através do frio, o congelamento da área a ser tratada a -11º C de resfriamento (a única criolipólise que chega a -11º C), fazendo com que essas células de gordura sejam cristalizadas induzindo a célula a morte. Através desse processo ocorre a eliminação da gordura local pelo nosso organismo. Esse processo de eliminação leva até 90 dias (3 meses) para ocorrer, no final desse período o paciente terá a redução de 30% de gordura localizada.",
+                "Durante a sessão o paciente sente um mínimo desconforto devido a sucção que a ponteira de aplicação faz, no pós tratamento a região fica levemente dolorida e com edema, esses sintomas costumam passar no período de 15 dias.",
+                "A criolipólise pode ser associada com outros tratamentos depois de 30 dias que realizou a sessão.",
+                "O resultado de 30% da redução de gordura é obtido em uma única sessão o que torna o tratamento prático para o paciente ."
+            ]
+        },
+        {
+            "name": "CRIOFREQUÊNCIA",
+            "description": [
+                "A Criofrequência é única tecnologia que age através da sinergia do frio de -10º e ondas eletromagnéticas de alta potencia.",
+                "Esta terapia integra mais tecnologia que qualquer outra Radiofrequência, pois utiliza o frio no controle da temperatura superficial da pele, enquanto isso, por ser multipolar aumenta muito a temperatura interna.",
+                "Isso faz com que gere um choque no interior da pele pela combinação do frio externo com calor interno.",
+                "Tamanha energia trabalha desde a derme até a camada de gordura, causando lipólise e apoptose das células de gordura e estimulando a contração do colágeno.",
+                "A criofrequência é indicada para tratamento de gordura localizada, celulite e flacidez de pele.",
+                "O tempo de tratamento é em média de 20 a 30 minutos, e extremamente confortável e indolor.",
+                "O protocolo é de 10 sessões que são feitas semanalmente."
+            ]
+        },
+        {
+            "name": "ESTIMULAÇÃO MUSCULAR POR CAMPO ELECTROMAGNÉTICO",
+            "description": [
+                "O CMSlim é um aparelho que utiliza a tecnologia HI-EMT (High Intensity Electromagnetic Muscle Trainer), onde um campo eletromagnético gerado através de ímãs, promove cerca de 20.000 contrações musculares supra-máximas em 30 minutos, que levam a hiperplasia e hipertrofia muscular. Podem ser tratados: abdome, glúteos, coxas, panturrilhas, bíceps e tríceps"
+            ]
+        }
+    ],
+    "esteticos": [
+        {
+            "name": "MICROAGULHAMENTO COM OURO",
+            "description": [
+                "Usando a nova tecnologia de radiofrequência tridimensional conseguimos transmitir o calor da radiofreqüência por toda a extensão da agulha levando a uma coluna de coagulação uniforme, acelerando resultados com muita segurança.",
+                "Rugas, Estrias, Cicatrizes, Textura de pele, Poros"
+            ]
+        },
+        {
+            "name": "PREENCHEDORES",
+            "description": [
+                "O rosto de todas as pessoas possui rugas e depressões naturais. No entanto, alguns fatores específicos como a exposição solar sem proteção e o emagrecimento aceleram o processo de envelhecimento. Por isso é comum que pessoas que tomam mais sol tenham aparência de “mais velhas” que pessoas da mesma idade que evitam o sol. Já quando a pessoa perde peso, normalmente ela pode parecer imediatamente mais velha porque a pele pode ficar flácida e os sulcos e rugas do rosto se acentuam.",
+                "As rugas, os sulcos no rosto e o semblante de envelhecimento incomodam a todos, desde pessoas com 20 anos que tenham o rosto com expressão facial excessiva, até pessoas mais velhas que já apresentam todos os sinais da idade. E essas características incomodam igualmente homens e mulheres.",
+                "Os preenchedores repõe o volume que falta nas dobras das rugas. Eles são indicados para a manutenção da jovialidade da face, para o rejuvenescimento da face e para a correção de diferenças entre um lado e o outro do rosto. Os preenchedores mais usados são os de ácido hialurônico.",
+                "Esse é um procedimento de consultório, feito com anestesia tópica apenas. O procedimento é realizado com agulhas finas, é rápido, causa mínima ou nenhuma dor e apresenta um resultado imediato.",
+                "Após o procedimento, o paciente pode retornar a suas atividades normais e não há necessidade de repouso. Deve-se apenas evitar pressão excessiva por 1 dia nos locais trabalhados. Esse é um procedimento que quase nunca apresenta dor após seu término. Considerando os melhores produtos, os resultados duram entre 12 até 18 meses.",
+                "Eventuais inchaços podem ser visíveis de 1 a 14 dias, mas normalmente não excedem 2 dias. Por essa razão não aconselhamos que o procedimento seja feito muito próximo a datas festivas ou em que a paciente venha a se expor socialmente em eventos ou fotografias. O tempo de recuperação pode mudar caso haja procedimentos associados."
+            ]
+        },
+        {
+            "name": "SKIN BOOSTER",
+            "description": [
+                "Sabe-se que uma das partes mais importantes do envelhecimento é a perda de água no corpo e em todos os tecidos. Junto com outros mecanismos de envelhecimento, a perda de água contribui na flacidez e queda da face. Isso se evidencia pelo aprofundamento dos sulcos do rosto, perda da viscosidade e da elasticidade da pele, que se torna frouxa e enrugada.",
+                "O “skin-booster” é a novidade mais promissora para corrigir a perda de água da pele. Trata-se de um hidratante injetável à base de ácido hialurônico que segura e mantem água nas camadas profundas da pele por períodos prolongados. Sua ação é incomparavelmente mais eficaz que os hidratantes que são passados como creme na pele. Isso ocorre porque o “skin-booster” age diretamente na camada profunda da pele que precisa de hidaratação, sem ter que vencer nenhuma barreira.",
+                "Com essa reposição de água o efeito é uma melhoria muito importante na textura da pele, que já pode ser sentida com 3 dias após a aplicação.",
+                "Esse é um procedimento de consultório, feito com anestesia tópica apenas. O procedimento é realizado com agulhas finas, é rápido, causa mínima ou nenhuma dor e apresenta um resultado imediato.",
+                "Após o procedimento, o paciente pode retornar a suas atividades normais e não há necessidade de repouso. Esse é um procedimento que quase nunca apresenta dor após seu término. Considerando os melhores produtos do mercado, os resultados duram entre 9 e 12 meses."
+            ]
+        }
+    ],
+    "laser": [
+        {
+            "name": "DEPILAÇÃO A LASER",
+            "description": [
+                "A técnica é realizada com o laser de alexandrite que aquece o folículo piloso, desativando as células que provocam o crescimento dos pelos.",
+                "As aplicações de laser durante um tratamento geralmente são feitas a cada 30 ou 40 dias, em média. Porém o tempo que vai demorar para os pelos sumirem também é relativo, pois depende da região do corpo a ser depilada, do tipo de laser empregado, da produção de hormônios, da cor da pele e da cor dos pelos. Pode variar de 5 a 8 sessões, em média, para os pelos sumirem, mas pode ser necessário até 12 sessões. “Áreas como virilha e axila, que têm pelos mais grossos e escuros, respondem melhor ao método, o que pode abreviar o tempo de duração do tratamento para cinco sessões. Já pernas e face, regiões onde os pelos são mais claros, a previsão é de cinco a dez sessões. Mas vale ressaltar que essa é uma estimativa, os resultados são individuais e em algumas pessoas esse número de sessões estimado pode ser menor e em outras maior.",
+                "O mecanismo de ação da depilação a laser é simples, porém delicado, e pode ter consequências como manchas e queimaduras. “Quando a luz do laser atinge o pelo, ela gera uma energia aquecida que o destrói, quando esse aquecimento atinge as células da raiz, o pelo não volta a crescer.",
+                "Por outro lado, justamente por conta dessa questão de que o laser é atraído pela melanina, peles bronzeadas, morenas e negras devem ser tratadas com muito critério porque a chance de ter queimaduras e manchas é maior. “Nesses casos, a melanina da pele se confunde com a do pelo e isso pode provocar manchas escurecidas. Mas isso é facilmente controlado com a potência da emissão de luz, que deve ser mais baixa, o que pode aumentar o número de sessões durante um tratamento."
+            ]
+        },
+        {
+            "name": "FOTOBIOESTIMULAÇÃO",
+            "description": [
+                "A fotobioestimulação atua sobre os processos bioquímicos da pele, aumentando a atividade celular sem causar dano térmico às estruturas do tecido.",
+                "O uso do LED na fotobioestimulação já é uma realidade há muito solidificada na dermatologia e estética médica, atuando em comprimentos de onda específicos, que têm o poder de estimular ou inibir determinadas atividades celulares, dependendo do tipo de indicação de tratamento e o respectivo resultado almejado.",
+                "Pode ser associado a peelings superficiais e hidratantes."
+            ]
+        },
+        {
+            "name": "LUZ INTENSA PULSADA",
+            "description": [
+                "A Luz Pulsada possibilita o tratamento de várias lesões causadas pelo fotoenvelhecimento, em diversas áreas do corpo como face, dorso das mãos, colo e pescoço. Trata rugas finas, vasos faciais, rosácea, manchas solares, dano solar crônico, alteração de textura da pele, olheiras, poiquilodermia (manchas, vasos e envelhecimento do colo e pescoço), depilação e pode ser utilizada até mesmo para remoção de tatuagens.",
+                "O que permite que a LIP trate diferentes problemas é sua amplitude de comprimento de ondas, que atingem diferentes profundidades da pele.",
+                "O tratamento com Luz Intensa Pulsada está indicado para pessoas com fototipos I (cútis branca muito sensível), II (cútis branca pouco sensível) e II (cútis morena clara). Tonalidades mais escuras têm maiores chances de complicações, pois a melanina, em maiores quantidades, pode absorver o feixe luminoso."
+            ]
+        }
+    ]
+}
