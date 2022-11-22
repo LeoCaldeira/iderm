@@ -1,9 +1,7 @@
 import AuthLayout from 'layouts/AuthLayout/AuthLayout'
 import React from 'react'
 
-const Team = (props) => {
-    const {} = props
-
+const Team = () => {
     return <AuthLayout>Team</AuthLayout>
 }
 

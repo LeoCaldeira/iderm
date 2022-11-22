@@ -1,5 +1,5 @@
-@use '../../theme/colors.scss' as *;
-@use '../../theme/sizes.scss' as *;
+@use 'theme/colors.scss' as *;
+@use 'theme/sizes.scss' as *;
 
 .auth-wrapper {
     .auth-header-wrapper {
@@ -13,6 +13,23 @@
             font-size: 20px;
             text-decoration: none;
             color: inherit;
+            cursor: default;
+
+            span,
+            img {
+                cursor: pointer;
+            }
+
+            span {
+                color: $lime-900;
+                &:hover,
+                &.active {
+                    padding: 2px 0;
+                    border-bottom: 2px solid $lime-900;
+                    filter: brightness(0.6);
+                }
+            }
+
             .logo {
                 width: 100px;
                 height: 80px;
