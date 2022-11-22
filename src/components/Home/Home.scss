@@ -1,28 +1,23 @@
 @use 'theme/colors.scss' as *;
 @use 'theme/sizes.scss' as *;
 
-.home-wrapper {
-    .header-wrapper {
-        height: 70px;
-        background-color: $indigo-200;
+.home__wrapper {
+    height: calc(100% - 110px);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .home__bottom-image {
+        height: 250px;
+        background-image: url('http://www.dermaclinic.com.br/wp-content/uploads/2015/03/foto-faixa-home.jpg');
+        background-position: center;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        padding: 0 30px;
 
-        .header-options {
-            display: flex;
-            flex-direction: row;
-
-            div {
-                padding: 0px 10px;
-                font-size: 20px;
-
-                a {
-                    text-decoration: none;
-                    color: inherit;
-                }
-            }
-        }
+        font-size: 36px;
+        color: $gray-200;
+        text-shadow: 0px 0px 4px #000;
     }
 }

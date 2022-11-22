@@ -21,8 +21,8 @@ const AuthLayout = (props) => {
                 <Link to="/">
                     <img src={Logo} alt="logo" className="logo" />
                 </Link>
-                <Link to="/team">
-                    <span className={`${path.includes('/team') ? 'active' : ''}`}>Equipe</span>
+                <Link to="/about">
+                    <span className={`${path.includes('/about') ? 'active' : ''}`}>Quem somos</span>
                 </Link>
                 <Link to="/contact">
                     <span className={`${path.includes('/contact') ? 'active' : ''}`}>Contato</span>
