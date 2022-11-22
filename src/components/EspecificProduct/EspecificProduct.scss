@@ -1,2 +1,91 @@
 @use 'theme/colors.scss' as *;
 @use 'theme/sizes.scss' as *;
+
+.especific-product__wrapper {
+    box-sizing: border-box;
+    padding: 0 40px;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+    .content {
+        width: 100%px;
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding-bottom: 30px;
+
+            .photo {
+                width: 250px;
+                height: 250px;
+                border-radius: 50px 90px 50px 90px;
+                border: 2px solid $gray-200;
+            }
+
+            h1 {
+                margin: 0;
+                color: $lime-900;
+            }
+        }
+
+        p {
+            line-height: 1.5;
+            margin: 0;
+            margin-bottom: 30px;
+            color: $gray-700;
+        }
+    }
+
+    .divider {
+        margin: 0 20px;
+        margin-bottom: 30px;
+        border-left: 5px solid $gray-200;
+    }
+
+    .products {
+        min-width: 400px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .product {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 40px;
+
+            h1 {
+                width: unset;
+                color: $teal-300;
+                margin: 0;
+                filter: brightness(0.7);
+            }
+
+            a {
+                margin-left: 20px;
+                text-decoration: none;
+                color: inherit;
+                margin-left: 10px;
+                padding-bottom: 20px;
+
+                p {
+                    padding: 5px 10px;
+                    width: 100%;
+                    text-decoration: none;
+                    color: inherit;
+                    margin: 0;
+
+                    &:hover,
+                    &.active {
+                        background-color: $gray-100;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+}

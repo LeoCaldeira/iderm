@@ -36,16 +36,17 @@ const Products = () => {
                         {selectedTags?.includes(tag) && (
                             <div className="products-content">
                                 {products[tag].map((product) => (
-                                    <div className="product">
+                                    <div className="product" key={product.name}>
                                         <img src={product.image} alt="" />
                                         <div className="product__infos">
                                             <h4>{product.name}</h4>
 
-                                            <p>{product.description[0]}</p>
+                                            <p>{product.descriptions[0]}</p>
 
                                             <Link
                                                 to={`/products/${product.name.replace(/\s/g, '-').toLowerCase()}`}
                                                 state={{ product: product }}
+                                                onClick={() => window.scrollTo(0, 0)}
                                             >
                                                 <button className="more-info-button">Mais detalhes</button>
                                             </Link>

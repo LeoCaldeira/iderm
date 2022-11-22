@@ -35,7 +35,7 @@
                 height: 90px;
 
                 border-radius: 100px;
-                border: 5px solid $lime-400;
+                border: 5px solid $gray-200;
                 overflow: hidden;
             }
 
@@ -51,7 +51,7 @@
                 h4 {
                     margin: 0;
                     // margin: 10px 0 10px 0;
-                    color: $lime-900;
+                    color: $lime-600;
                 }
 
                 p {
@@ -59,6 +59,7 @@
                     white-space: nowrap;
                     text-overflow: ellipsis;
                     overflow: hidden;
+                    color: $gray-700;
 
                     @supports (-webkit-line-clamp: 2) {
                         overflow: hidden;
