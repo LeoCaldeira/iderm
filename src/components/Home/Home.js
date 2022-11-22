@@ -1,13 +1,16 @@
 import AuthLayout from 'layouts/AuthLayout/AuthLayout'
 import React from 'react'
 import './Home.scss'
+import Atendimento from 'components/elements/Atendimento/Atendimento'
 
-const Home = (props) => {
+const Home = () => {
     return (
         <AuthLayout>
-            <div className="home__wrapper">
-                <p>asd</p>
-                <span className="home__bottom-image">Cuidando da sua beleza com ética e segurança</span>
+            <div className="home-wrapper">
+                <div style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+                    <Atendimento />
+                </div>
+                <span className="home-bottom-image">Cuidando da sua beleza com ética e segurança</span>
             </div>
         </AuthLayout>
     )

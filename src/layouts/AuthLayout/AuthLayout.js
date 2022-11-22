@@ -7,8 +7,6 @@ const AuthLayout = (props) => {
     const { children } = props
     const path = window.location.pathname
 
-    console.log('path', path) //TODO remove log
-
     return (
         <div className="auth-wrapper">
             <div className="auth-header-wrapper">
