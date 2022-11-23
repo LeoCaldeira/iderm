@@ -3,4 +3,23 @@
 
 .about-wrapper {
     padding: 0 100px;
+    padding-bottom: 40px;
+    color: $gray-700;
+
+    p {
+        font-size: 24px;
+
+        span {
+            font-weight: bold;
+            color: $gray-900;
+        }
+
+        li {
+            padding-left: 20px;
+        }
+
+        .highlight {
+            color: $lime-700;
+        }
+    }
 }
