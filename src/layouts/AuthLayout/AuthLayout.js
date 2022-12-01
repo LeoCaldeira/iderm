@@ -10,6 +10,9 @@ const AuthLayout = (props) => {
     return (
         <div className="auth-wrapper">
             <div className="auth-header-wrapper">
+                <Link to="">
+                    <div style={{ color: '#fff' }}>C a t á l o g o d a T I</div>
+                </Link>
                 <Link to="/">
                     <span className={`${path === '/' ? 'active' : ''}`}>Home</span>
                 </Link>
@@ -24,6 +27,9 @@ const AuthLayout = (props) => {
                 </Link>
                 <Link to="/contact">
                     <span className={`${path.includes('/contact') ? 'active' : ''}`}>Contato</span>
+                </Link>
+                <Link to="/catalogo">
+                    <span className={`${path.includes('/catalogo') ? 'active' : ''}`}>Catálogo da TI</span>
                 </Link>
             </div>
             {children}

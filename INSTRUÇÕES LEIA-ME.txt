@@ -1,0 +1,9 @@
+após o arquivo estar descompactado e com algum terminal aberto nele (powershell, gitbash, etc),
+para que o projeto rode basta no terminal rodar os codigos "npm install"
+e após a instalação, rodar o codigo "npm start" e assim a aplicação irá inicializar na porta 3000
+do local host.
+
+também é possivel abrir os arquivos em alguma IDE(visual studio code, etc) e execugar os 
+comandos (npm install -> npm start) no terminal da mesma
+
+OBS: é necessário ter o NODE.JS(versão lts) instalado na maquina

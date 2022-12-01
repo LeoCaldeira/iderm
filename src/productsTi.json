@@ -1,0 +1,58 @@
+{
+    "sistema": [
+        {
+            "name": "Desenvolvimento Site",
+            "descriptions": [
+                "Desenvolvimento de todas as funcionalidades do site para que o mesmo esteja de acordo com as necessidades da empresa"
+            ],
+            "situation": "Em operação",
+            "priority": "Alta",
+            "responsability": "Gerencia de sistemas",
+            "image": "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/11/Como-Criar-um-Site.png"
+        },
+        {
+            "name": "Cartão Fidelidade",
+            "descriptions": [
+                "Implantar em parceira com um banco um cartão com crédito rotativo, que possibilitará a contratação dos serviços utilizando o meio físico (na própria loja) ou virtual (mediante Portal na Internet)."
+            ],
+            "situation": "Aposentado",
+            "priority": "Baixa",
+            "responsability": "Gerencia de sistemas",
+            "image": "https://d2ofpir5gh0cbr.cloudfront.net/files/2016-06/cartao-fidelidade-dica2.jpg"
+        }
+    ],
+    "web": [
+        {
+            "name": "Organizadores de eventos",
+            "descriptions": [
+                "Gerenciar múltiplos eventos e visualizá-los em um cronograma, utilizando o painel para consultar os pontos de alta prioridade."
+            ],
+            "situation": "Liberado",
+            "priority": "Alta",
+            "responsability": "Gerencia desenvolviemnto web",
+            "image": "data:image/png;base64,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"
+        },
+        {
+            "name": "Localização do usuário",
+            "descriptions": [
+                "Para solicitar o atenidmento o usuário deve enviar a localização de onde quer o atendimento, mostrando no sistema"
+            ],
+            "situation": "Em operação",
+            "priority": "Média",
+            "responsability": "Gerencia desenvolviemnto web",
+            "image": "https://vespasalads.files.wordpress.com/2020/09/localizar-celular.jpg"
+        }
+    ],
+    "infraestrutura": [
+        {
+            "name": "Gerencia da TI",
+            "descriptions": [
+                "Consultar o cronograma para se informar sobre os calendários de implementação e ver todas as implementações de softwares ativas e as que ainda estejam em processo de avaliação."
+            ],
+            "situation": "Em operação",
+            "priority": "Alta",
+            "responsability": "Gerencia infra",
+            "image": "http://www.penso.com.br/wp-content/uploads/2017/05/Gerenciamento-dos-Servico-de-TI-sua-empresa-esta-preparada-para-crescer.png"
+        }
+    ]
+}

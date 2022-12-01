@@ -2,8 +2,9 @@ import AuthLayout from 'layouts/AuthLayout/AuthLayout'
 import React from 'react'
 import './Home.scss'
 import Atendimento from 'components/elements/Atendimento/Atendimento'
+import { Link } from 'react-router-dom'
 
-const Home = () => {
+const Home = (props) => {
     return (
         <AuthLayout>
             <div className="home-wrapper">

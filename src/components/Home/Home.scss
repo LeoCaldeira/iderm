@@ -8,6 +8,25 @@
     flex-direction: column;
     justify-content: space-between;
 
+    .tiProducts {
+        margin-left: auto;
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            padding: 10px 15px;
+            border-radius: 8px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $lime-200;
+
+            width: min-content;
+            white-space: nowrap;
+        }
+    }
+
     .home-bottom-image {
         height: 250px;
         background-image: url('http://www.dermaclinic.com.br/wp-content/uploads/2015/03/foto-faixa-home.jpg');
