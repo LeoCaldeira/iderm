@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const ProductsTi = () => {
     const tags = Object.keys(productsTi)
-    const [selectedTags, setSelectedTags] = useState([''])
+    const [selectedTags, setSelectedTags] = useState(['infraestrutura', 'sistema', 'web'])
 
     const handleTag = (tag) => {
         let newTags = []
